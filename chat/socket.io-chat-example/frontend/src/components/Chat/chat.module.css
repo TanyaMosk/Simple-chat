@@ -1,0 +1,43 @@
+.chat {
+    width: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.youType{
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;   
+}
+
+.userType{
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.youMessage {
+    padding: 10px 15px;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-right: 40px;
+}
+
+.userMessage {
+    padding: 10px 15px;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 40px;
+}
